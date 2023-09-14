@@ -2,7 +2,6 @@ cd git
 git clone https://github.com/sofia-guo/GitHub-Collaboration-Practice.git
 cd GitHub-Collaboration-Practice
 git checkout -b new_branch
-git switch main
 nano group_project.txt
 touch taylor_commands.txt
 nano taylor_commands.txt
