@@ -1,4 +1,3 @@
-
 albar@LAPTOP-KPE2403U MINGW64 ~
 $ cd '/d/Project 1'
 
@@ -37,48 +36,44 @@ $ git commit -m "Neena's degree info"
  1 file changed, 1 insertion(+)
 
 albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
-$ git push origin main
-fatal: credential-cache unavailable; no unix socket support
-Everything up-to-date
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
 
-albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
-$ git checkout Neena_main
-Already on 'Neena_main'
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (main)
+$ git merge --no-commit --no-ff Neena_main
+Automatic merge went well; stopped before committing as requested
 
-albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
-$ git merge main
-Already up to date.
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (main)
+$ git branch
+  Neena_main
+* main
 
-albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
-$ git pull
-There is no tracking information for the current branch.
-Please specify which branch you want to merge with.
-See git-pull(1) for details.
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (main)
+$ git merge Neena_main
+Updating 849ce0f..8ea6bcb
+Fast-forward
+ N_file.txt        | 84 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ group_project.txt |  1 +
+ 2 files changed, 85 insertions(+)
+ create mode 100644 N_file.txt
 
-    git pull <remote> <branch>
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (main)
+$ git checkout
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
 
-If you wish to set tracking information for this branch you can do so with:
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (main)
+$ git branch
+  Neena_main
+* main
 
-    git branch --set-upstream-to=origin/<branch> Neena_main
-
-
-albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
-$  git pull main Neena_main
-fatal: 'main' does not appear to be a git repository
-fatal: Could not read from remote repository.
-
-Please make sure you have the correct access rights
-and the repository exists.
-
-albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
-$ git commit
-On branch Neena_main
-nothing to commit, working tree clean
-
-albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (main)
 $ git status
-On branch Neena_main
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
 nothing to commit, working tree clean
 
-albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
-$ touch N_file.txt
+
