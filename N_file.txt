@@ -25,12 +25,6 @@ albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_
 $ git add *
 
 albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
-$ git commit - m "Neena's info"
-error: pathspec '-' did not match any file(s) known to git
-error: pathspec 'm' did not match any file(s) known to git
-error: pathspec 'Neena's info' did not match any file(s) known to git
-
-albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
 $ git commit -m "Neena's degree info"
 [Neena_main 536fe40] Neena's degree info
  1 file changed, 1 insertion(+)
