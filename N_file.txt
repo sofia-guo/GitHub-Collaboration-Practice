@@ -1,0 +1,84 @@
+
+albar@LAPTOP-KPE2403U MINGW64 ~
+$ cd '/d/Project 1'
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1
+$ git clone https://github.com/sofia-guo/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (23/23), done.
+remote: Total 29 (delta 6), reused 12 (delta 2), pack-reused 0
+Receiving objects: 100% (29/29), 4.93 KiB | 388.00 KiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1
+$ cd "D:\Project 1\GitHub-Collaboration-Practice"
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (main)
+$ git checkout -b Neena_main
+Switched to a new branch 'Neena_main'
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ nano group_project.txt
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ git add *
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ git commit - m "Neena's info"
+error: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'Neena's info' did not match any file(s) known to git
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ git commit -m "Neena's degree info"
+[Neena_main 536fe40] Neena's degree info
+ 1 file changed, 1 insertion(+)
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ git push origin main
+fatal: credential-cache unavailable; no unix socket support
+Everything up-to-date
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ git checkout Neena_main
+Already on 'Neena_main'
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ git merge main
+Already up to date.
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> Neena_main
+
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$  git pull main Neena_main
+fatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ git commit
+On branch Neena_main
+nothing to commit, working tree clean
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ git status
+On branch Neena_main
+nothing to commit, working tree clean
+
+albar@LAPTOP-KPE2403U MINGW64 /d/Project 1/GitHub-Collaboration-Practice (Neena_main)
+$ touch N_file.txt
