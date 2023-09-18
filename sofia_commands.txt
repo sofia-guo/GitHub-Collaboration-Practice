@@ -1,0 +1,30 @@
+git clone 
+git@github.com:sofia-guo/Computational-Social-Science-Projects.git
+mkdir "Project 1"
+cd "Project 1"
+touch "SGproject1.txt"
+nano SGproject1.txt
+(CSS) MacBook-Air-2:Project 1 sofia$ git add .
+(CSS) MacBook-Air-2:Project 1 sofia$ git commit -m "adding 
+project one file"
+git push origin main
+ git clone 
+git@github.com:sofia-guo/GitHub-Collaboration-Practice.git
+cd GitHub-Collaboration-Practice
+nano group_project.txt
+git add .
+git commit -m "adding step 4c from project 1 instructions"
+ls
+nano group_project.txt
+git add .
+git commit -m "adding resolved file"
+git push
+git pull
+git clone git@github.com:sofia-guo/sofia.github.io.git
+ls
+touch index.md
+nano index.md
+touch projects.md
+git add .
+git commit -m "adding inital index and project files"
+
